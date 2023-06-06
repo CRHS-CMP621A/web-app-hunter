@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family:'Times New Roman', Times, serif, sans-serif;
   }
   body {
     height: 100vh;
@@ -17,6 +17,8 @@
     padding: 10px;
   }
   .grid-container > div {
+    display: grid;
+    grid-template-areas: 250px 250px 250px 250px;
     width: 90%;
     max-width: 37.5em;
     position:absolute;
@@ -26,13 +28,13 @@
     border-radius: 0.5em;
     padding: 2em;
     box-shadow: 0 1.87em 3.75em rgba(2, 14, 44, 0.2);
-  }
-
-  div{
     background: grey;
-    border-top: solid;
-    border-left: solid;
-    border-right: solid;
-    border-bottom:solid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
   }
-  
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    
+  }
