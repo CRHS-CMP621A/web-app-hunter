@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+  }
+  body {
+    height: 100vh;
+    background: #304988;
+  }
+  .grid-container {
+    display: grid;
+    width: 100%;
+    height: 40px;
+    gap: 10px;
+    background-color: #88b1ff;
+    padding: 10px;
+  }
+  .grid-container > div {
+    display: grid;
+    grid-template-areas: 250px 250px 250px 250px;
+    width: 90%;
+    max-width: 37.5em;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.5em;
+    padding: 2em;
+    box-shadow: 0 1.87em 3.75em rgba(2, 14, 44, 0.2);
+    background: grey;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    
+  }
